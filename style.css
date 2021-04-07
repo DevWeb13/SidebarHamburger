@@ -1,0 +1,101 @@
+
+
+/*# sourceMappingURL=style.css.map */
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #383838;
+    font-family: 'Poppins',sans-serif;
+}
+
+.content{
+    color: #09FBBA;
+    transition: 1s;
+    height: 100vh;
+}
+
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 4rem;
+}
+
+p{
+    padding: 2rem 5rem;
+}
+
+#side-bar{
+    position: absolute;
+    width: 230px;
+    height: 100%;
+    background: #09FBBA;
+    left: -300px;   /*Permet de faire disparaitre la side-bar sur la gauche de l'ecran.*/
+    transition: .5s ease-out;/*Affiche side-bar en 0.5s (ease-out=lent vers la fin).*/
+    z-index: 4;/*La side-bar passe devant tout les élèments.*/
+}
+
+.toggle-button{
+    position: absolute;
+    top: 30px;
+    left: 310px;/*Place le bouton au bon endroit.*/
+    cursor: pointer;
+    height: 50px;
+    width: 50px;
+}
+
+.toggle-button span{/*Il y a 3 <span> qui permettent de créer la forme du bouton.(hamburger)*/
+    width: 60px;
+    height: 10px;
+    border-radius: 5px;
+    background: #09FBBA;
+    display: block;
+    margin-top: 4px;/*Permet de 'decoller' les 3 <span> afin de creer les 3 traits.*/
+    transition: 0.5s ease;/*ease=lentement.*/
+}
+
+li{
+    color: #292929;
+    font-size: 2.5rem;
+    cursor: pointer;
+    padding-left: 5px;
+}
+
+li:hover{
+    background: #292929;
+    color: #FCFCFB;
+}
+
+#side-bar.active{
+    left: 0;/*Quand la class='active' est activé on annule le 'left: -300px;' ce qui permet d'afficher la side-bar.*/
+}
+
+#side-bar.active .toggle-button{
+    top: 2.8rem;
+    left: 235px;
+}
+
+#side-bar.active span{
+    position: absolute;
+}
+
+#side-bar.active span:nth-child(1){
+    transform: rotate(45deg);/*Permet de tourner la barre du haut de 45 degrés quand on active la Sidebar.*/
+}
+
+#side-bar.active span:nth-child(2){
+    opacity: 0;/*Permet de faire disparaitre la barre du milieu quand on active la Sidebar.*/
+}
+
+#side-bar.active span:nth-child(3){
+    transform: rotate(-45deg);/*Permet de tourner la barre du bas de -45 degrés quand on active la Sidebar.*/
+}
+
+#side-bar.active ~ .content{/*Contenu de la page*/
+    opacity: 0.3;/*Sombre le contenu de la page quand la class='active' est activée.*/
+}
