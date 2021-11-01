@@ -1,8 +1,11 @@
-# SidebarHamburger
+
+# [Javascript #1] Animer La Sidebar + hamburger menu]
 
 @author: [DevWeb13](https://twitter.com/DeveloppementW1)
 
-Création d'une barre de navigation coulissante apparaissant au clic sur un bouton "Burger", grace au tuto "YouTube" de ["From Scratch()"]( https://twitter.com/KobeKenjo).
+Dans ce mini projet nous allons créer une Sidebar qui apparaitra en cliquant sur un hamburger menu, celui-ci se transformera en croix quand on aura cliqué…
+
+Réalisé grace au tutoriel YouTube: ["[Javascript #1] Animer La Sidebar + hamburger menu"](https://www.youtube.com/watch?v=nCUwqr1WAVo) de ["From Scratch()"]( https://twitter.com/KobeKenjo).
 
 Un grand merci a lui!!
 
