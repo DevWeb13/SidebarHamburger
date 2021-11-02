@@ -1,4 +1,3 @@
-
 # [Javascript #1] Animer La Sidebar + hamburger menu
 
 @author: [DevWeb13](https://twitter.com/DeveloppementW1)
