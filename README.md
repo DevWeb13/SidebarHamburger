@@ -2,10 +2,10 @@
 
 @author: [DevWeb13](https://twitter.com/DeveloppementW1)
 
-Dans ce mini projet nous allons créer une Sidebar qui apparaitra en cliquant sur un hamburger menu, celui-ci se transformera en croix quand on aura cliqué…
+In this mini project we will create a Sidebar that will appear by clicking on a hamburger menu, it will turn into a cross when we have clicked...
 
-Réalisé grace au tutoriel YouTube: ["[Javascript #1] Animer La Sidebar + hamburger menu"](https://www.youtube.com/watch?v=nCUwqr1WAVo) de ["From Scratch()"]( https://twitter.com/KobeKenjo).
+Realized thanks to the YouTube tutorial: ["[Javascript #1] Animer La Sidebar + hamburger menu"](https://www.youtube.com/watch?v=nCUwqr1WAVo) of ["From Scratch()"]( https://twitter.com/KobeKenjo).
 
-Un grand merci a lui!!
+A big thank you to him!!
 
 # [SITE FINAL](https://devweb13.github.io/SidebarHamburger/)
